@@ -9,7 +9,7 @@ will get only 3 chances""");
 secret_number = int(random.uniform(0,10))
 guess_count = 0
 guess_limit = 3
-goon = "Yes"; 
+
 
 while guess_count<guess_limit:
    guess = int(input("Number : "))
